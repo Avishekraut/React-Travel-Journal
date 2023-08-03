@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './Components/Nav'
+import Card from './Components/Card'
 
 function App() {
   return (
     <div className="App">
-      <h1>I am working</h1>
+      <Nav img= "./images/globe-icon.png"/>
+      <Card img= "./images/mount-fuji.png"/>
     </div>
   );
 }

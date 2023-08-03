@@ -3,4 +3,60 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.nav-bar{
+    display: flex;
+    background: #F55A5A;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 8px;
+    padding: 7px;
+    
+}
+.nav-title{
+    font-weight: 600;
+}
+
+.card{
+    max-width: 100%;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    gap: 19px;
+    margin: 45px;
+    padding: 0px 358px;
+}
+
+.location-icon{
+    width: 13px;
+    height: auto;
+    margin-right: 4px;
+}
+
+.card-img{
+    width: 200px;
+    height: 280px;
+    border-radius: 5px;
+}
+
+.card-country{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.card-country a{
+    color: #918E9B;
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card-title{
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-details{
+    margin-top: 15px;
+}
 
