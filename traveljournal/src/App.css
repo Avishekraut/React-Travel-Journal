@@ -23,12 +23,12 @@ body {
     flex-shrink: 0;
     justify-content: center;
     gap: 19px;
-    margin: 45px;
-    padding: 0px 358px;
+    margin: 25px 0;
+    padding: 0px 403px;
 }
 
 .location-icon{
-    width: 13px;
+    width: 14px;
     height: auto;
     margin-right: 4px;
 }
@@ -44,6 +44,10 @@ body {
     align-items: center;
     font-size: 12px;
 }
+.card-country p{
+    letter-spacing: 1.74px;
+    text-transform: uppercase;
+ }
 .card-country a{
     color: #918E9B;
     margin-left: 12px;
@@ -59,4 +63,18 @@ body {
 .card-details{
     margin-top: 15px;
 }
+.card-date{
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 7px;
+}
+hr {
+    border: none;
+    width: 46.5%;
+    height: 1px;
+    background-color: rgb(226, 225, 225);
+}
 
+.cards-conatainer{
+    padding-top: 25px;
+}
