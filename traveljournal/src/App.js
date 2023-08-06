@@ -3,6 +3,7 @@ import Nav from "./Components/Nav";
 import Card from "./Components/Card";
 import globeicon from "./images/globe-icon.png";
 import data from "./data";
+import Footer from "./Components/Footer"
 
 function App() {
   const info = data.map((data) => {
@@ -14,6 +15,7 @@ function App() {
       <div className="cards-conatainer">
         {info}
       </div>
+      <Footer />
     </div>
   );
 }
