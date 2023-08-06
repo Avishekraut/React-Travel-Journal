@@ -32,6 +32,10 @@ body {
     height: auto;
     margin-right: 4px;
 }
+.img-div{
+    display: flex;
+    justify-content: center;
+}
 
 .card-img{
     width: 200px;
@@ -108,7 +112,6 @@ footer a:hover {
     .card-img{
         width: 300px;
         height: 400px;
-        margin: 0 62px;
         border-radius: 8px;  
     }
     .card-country{
